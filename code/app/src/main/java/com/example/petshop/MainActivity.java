@@ -37,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
         pettablePets.add(dog);
         pettablePets.add(scorpion); // This should produce an error
 
+        Mood mood1 = newHappyMood();
+        Mood mood2 = newSadMood(new Data());
+
+        String mood1text = mood1.getMood();
+        String mood2text = mood2.getMood();
+
     }
 
 
